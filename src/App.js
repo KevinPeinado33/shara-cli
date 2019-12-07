@@ -1,13 +1,13 @@
 import React from 'react';
 
+import NavBar from './layouts/navbar/NavBar';
+import SideBar from './layouts/sidebar/SideBar';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          SAHRA
-        </p>
-      </header>
+    <div className="wrapper">
+      <NavBar />
+      <SideBar />
     </div>
   );
 }
